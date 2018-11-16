@@ -1,0 +1,25 @@
+I have uploaded the data sets used in this project, in the repository.
+
+In SAP Predictive Analytics, First of all I have added Sales Trasaction file and then I have merged this data with the master data
+using left Join on Material file. Similarly I have joined Customer data, Product Category data, Sales Organization Data, and Month data to 
+the Transactional Data so that we can dig deeper into data.
+
+Once we have have acquired and merged sales transaction data with master data, We can manipulate and Visualize the data.
+
+I have deleted all measures except – Discount, Revenue , Sales Price, SalesQuantity, and Transfer Price. I have also added a calculated
+column Net Sales using formula {Revenue} – {Discount}, and have created this new attribute as a Measure.
+
+I have also created a Geographic hierarchy by names, and resolved all the unresolved Countries, cities and regions in the hierarchy.
+
+Finally I have visualized the data to find answers to the following questions
+
+1. What Year had the highest revenue? What was the revenue?
+2. What material (with name) had the highest revenue? What was the revenue? 
+3. Are the historical (year by year) revenue trends for the US and DE (Germany) similar or dissimilar? 
+4. Did GBI ever gain or lose a customer? Explain 
+5. Is there seasonality in revenue during the year? If so, what month has the highest revenue? Is the seasonality similar from year to year?
+6. In 2011, for what Material did the highest Revenue from a single customer occur? 
+7. Are there any products that show dramatic change in revenue over time (years)? Does it have similar change by country? 
+8. Is there any material that does not display significant seasonality? 
+9. What customer has the highest percentage contribution to revenues? What has been the trend of that customer’s percentage contribution over the years? 
+10. Which region has the highest revenue? 
